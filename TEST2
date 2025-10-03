@@ -1,0 +1,17 @@
+2.Get 3 user input integer and multiply all the values store it in d and add all variables store it in e and divide d by e.
+
+    int a=sc.nextInt();
+		int b=sc.nextInt();
+		int c=sc.nextInt();
+		int d=a*b*c;
+	  int e=a+b+c;
+		System.out.println(d/e);
+
+3. get the user input and enter your score but it have divide by 10 which is point value for exampple if your score is 56 means it should be print 5.6
+
+    String name=sc.next();
+		double score=sc.nextDouble();
+		String dept=sc.next();
+		System.out.println("My name is " +name);
+		System.out.println("My score is "+score/10+"/10");
+	  System.out.println("My department is "+dept);
