@@ -1,0 +1,71 @@
+1.get input for marks and if the mark is less than 35 print pass and else fail.
+int mark=sc.nextInt();
+
+//		if(mark>35) {
+//			System.out.println("pass");
+//		}
+//		else {
+//			System.out.println("fail");
+//		}
+2.get input for number and check whether it is divisible by both 5 and 3 if yes print divisible and no print not divisible.
+//		int num=sc.nextInt();
+//		if(num%3==0 && num%5==0) {
+//			System.out.println("the number is divisible");
+//		}
+//		else {
+//			System.out.println("the number is not divisible");
+//			
+//		}
+3.get input for score 
+ if score is less than 50 print improve
+ if score is between fifty and  70 print gud job
+ if score is greater than 70 print execellent.
+//		
+//        int score=sc.nextInt();
+//        if(score<50) {
+//        	System.out.println("you need to improve");
+//        }
+//        else if(score>=50 && score<=70){
+//        	System.out.println("good job");
+//        	
+//        }
+//        else {
+//        	System.out.println("excellent");
+//        }
+4. get input for five subjects and add all the subjects and find average if avg is less than 35 print additionl class else print not required.
+//		int sub1=sc.nextInt();
+//		int sub2=sc.nextInt();
+//		int sub3=sc.nextInt();
+//		int sub4=sc.nextInt();
+//		int sub5=sc.nextInt();
+//		int totalmark=sub1+sub2+sub3+sub4+sub5;
+//		int average=totalmark/5;
+//		if(average<35) {
+//			System.out.println("additional class");
+//		}
+//		else {
+//			System.out.println("not required");
+//			
+//		}
+5. get input for both salary and age if salary is greater than 20000 and age is lesser than 25 print eligible  else not eligible and if eligible ask for user input loan amount and enterd loan amount is less than 50000 print available
+else not available.
+		
+//		int salary=sc.nextInt();
+//		int age=sc.nextInt();
+//		if(salary>=20000 && age<=25) {
+//			System.out.println("eligible");
+//			int loan=sc.nextInt();
+//			if(loan<=50000) {
+//				System.out.println("loan available");
+//			}
+//			else {
+//				System.out.println("not available");
+//			}
+//		
+//		}
+//		else {
+//			System.out.println("not eligible"); 
+//			
+//		}
+		
+	
