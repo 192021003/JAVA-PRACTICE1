@@ -1,0 +1,76 @@
+//Accesing method by different calls
+public class Test2 {
+	public void test1() {
+		System.out.println("hello");
+	}
+	public void test2() {
+		System.out.println("hi");
+	}
+	public static void main(String[] args) {
+		System.out.println("bye");
+		Test2 obj=new Test2();
+		obj.test2();
+		obj.test1();
+	}
+}
+//example arithmetic operators
+public class Test2 {
+	public void test1() {
+		int a=3;
+		int b=15;
+		System.out.println(a+b);
+	}
+	public void test2() {
+		int a=18;
+		int b=25;
+		System.out.println(a-b);
+	}
+	public void test3() {
+		int a=18;
+		int b=25;
+		System.out.println(a*b);
+	}
+	public void test4() {
+		double a=18;
+		double b=25;
+		System.out.println(a/b);
+	}
+	public void test5() {
+		int a=18;
+		int b=25;
+		System.out.println(a%b);
+	}
+
+	public static void main(String[] args) {		
+		Test2 obj=new Test2();
+		obj.test1();
+		obj.test2();
+		obj.test3();
+		obj.test4();
+		obj.test5();
+	}
+}
+// Swapping of variable
+public class Test2 {
+	public static void main(String[] args) {		
+		int a=5;
+		int b=6;
+		System.out.println("A value: " +a +" B value: " + b);
+		int c=a;
+		a=b;
+		b=c;
+		System.out.println("A value: "+a +" B value: " + b);
+	}
+}
+//swapping values without variable changes
+public class Test2 {
+	public static void main(String[] args) {		
+		int a=15;
+		int b=10;
+		System.out.println("A value: " +a +" B value: " + b);
+		a=a+b; //15+10=25
+		b=a-b; //25-10=15
+		a=a-b; //25-15=10
+		System.out.println("A value: " +a +" B value: " + b);
+	}
+}
